@@ -1,6 +1,26 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Sidebar from "@/components/Sidebar";
+import { Kaushan_Script } from 'next/font/google'
+import { Single_Day } from "next/font/google";
+import Navbar from "@/components/Navbar";
+
+export const kaushan = Kaushan_Script({
+  weight:"400",
+  preload: false,
+  display:"swap",
+  variable:"--kaushan-reqular"
+
+
+});
+const single_day = Single_Day({
+  weight:"400",
+  display:"swap",
+  variable:"--single-day-reqular"
+
+
+});
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,8 +35,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={kaushan.variable}>
+      <body className="bg-gradient-to-r from-green to-blue-400" >
+        <div className="grid grid-cols-12 gap-6 px-5 my-14 lg:mb-0 md:mb-16 sm:px-20 md:px-32 lg:px-36 xl:px-48 ">
+          <div className="h-full col-span-12 p-4 text-base text-center bg-white lg:col-span-3 rounded-2xl " >
+            <Sidebar/>
+            </div>
+          <div className="flex flex-col col-span-12 bg-white rounded-2xl dark:text-white lg:col-span-9" >
+            <Navbar/>
+          {children}
+          </div>
+         
+        </div>
+       
+        
+        </body>
     </html>
   );
 }
+
