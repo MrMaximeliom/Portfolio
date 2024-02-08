@@ -1,6 +1,6 @@
 'use client';
 
-import {AiFillGithub,AiFillLinkedin,AiFillYoutube} from 'react-icons/ai'
+import {AiFillGithub,AiFillLinkedin,AiFillTwitterCircle,AiFillYoutube} from 'react-icons/ai'
 import { GoLocation } from 'react-icons/go'
 import { GiTie } from 'react-icons/gi'
 import { useTheme } from 'next-themes';
@@ -35,13 +35,13 @@ const Sidebar = () =>{
             <span>Download Resume</span>
             </a>
         <div className='flex justify-around my-5 text-green w-9/12 md:w-full mx-auto'>
-            <a href="">
-                <AiFillYoutube className='w-8 h-8 cursor-pointer' />
+            <a href="https://twitter.com/Moayed_2020">
+                <AiFillTwitterCircle className='w-8 h-8 cursor-pointer' />
             </a>
-            <a href="">
+            <a href="https://github.com/MrMaximeliom">
                 <AiFillGithub className='w-8 h-8 cursor-pointer' />
             </a>
-            <a href="">
+            <a href="https://www.linkedin.com/in/moayedeisa/">
                 <AiFillLinkedin className='w-8 h-8 cursor-pointer' />
             </a>
         </div>
