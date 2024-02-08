@@ -38,6 +38,7 @@ const Sidebar = () =>{
             <a href="https://twitter.com/Moayed_2020">
                 <AiFillTwitterCircle className='w-8 h-8 cursor-pointer' />
             </a>
+            
             <a href="https://github.com/MrMaximeliom">
                 <AiFillGithub className='w-8 h-8 cursor-pointer' />
             </a>
