@@ -1,8 +1,7 @@
 import { NextApiRequest,NextApiResponse } from "next";
 
-import { services } from "../../data";
-
-export default (req:NextApiRequest,res:NextApiResponse) =>{
+import { services } from "@/data/services";
+export const servicesApi = (req:NextApiRequest,res:NextApiResponse) =>{
     // by default get request
     console.log(services)
 

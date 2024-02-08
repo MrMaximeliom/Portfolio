@@ -28,7 +28,7 @@ const NavItem:FunctionComponent<{
     )
 }
 const Navbar = () => {
-    const [activeItem,setActiveItem] = useState<string>('')
+    const [activeItem,setActiveItem] = useState<string>('About')
     const  pathname  = usePathname()
     useEffect(() =>{
         if(pathname === '/')
@@ -46,7 +46,7 @@ const Navbar = () => {
     
 
 
-    },[])
+    },[pathname])
     return (
         <div className="flex justify-between px-5 py-3 my-3">
             <span className="font-bold text-green text-x1 border-b-4 border-green md:text-2xl">{activeItem}</span>
