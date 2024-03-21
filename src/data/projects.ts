@@ -1,57 +1,56 @@
 import { IProject } from "@/interfaces/IProject";
 
-export const projects:IProject[] = [
-    {
-        id:1,
-        name:"project one",
-        description:"dsds",
-        image_path:"/imgs/projects/covid.jpg",
-        deployed_url:"fgfg",
-        github_url:"dfd",
-        category:["DotNet"],
-        key_techs:["React","Material UI"]
-    },
-    {
-        id:2,
-        name:"project two",
-        description:"dsds",
-        image_path:"/imgs/projects/covid.jpg",
-        deployed_url:"fgfg",
-        github_url:"dfd",
-        category:["Mongo"],
-        key_techs:["React","Material UI"]
-    },
-    {
-        id:3,
-        name:"project three",
-        description:"dsds",
-        image_path:"/imgs/projects/covid.jpg",
-        deployed_url:"fgfg",
-        github_url:"dfd",
-        category:["DotNet"],
-        key_techs:["React","Material UI"]
-    }
-    ,
-    {
-        id:4,
-        name:"project four",
-        description:"dsds",
-        image_path:"/imgs/projects/covid.jpg",
-        deployed_url:"fgfg",
-        github_url:"dfd",
-        category:["DotNet","Mongo","React"],
-        key_techs:["React","Material UI"]
-    }
-    ,
-    {
-        id:5,
-        name:"project five",
-        description:"dsds",
-        image_path:"/imgs/projects/covid.jpg",
-        deployed_url:"fgfg",
-        github_url:"dfd",
-        category:["React"],
-        key_techs:["React","Material UI"]
-    }
-    
-]
+export const projects: IProject[] = [
+  {
+    id: 1,
+    name: "Parallax Effect",
+    description:
+      "project reflects the nice parallax effect developed in NextJS",
+    image_path: "/imgs/projects/hero.jpg",
+    deployed_url: "https://parallax-9get39cng-moayed-s-projects.vercel.app/",
+    github_url: "https://github.com/MrMaximeliom/Parallax-Landing-Page",
+    category: ["NextJS"],
+    key_techs: ["Next JS", "Tailwind CSS"],
+  },
+  {
+    id: 2,
+    name: "Simple Countdown",
+    description:
+      "Simple Countdown is an application helps you to create a nice countdown to your special events",
+    image_path: "/imgs/projects/Simple_Countdown.png",
+    deployed_url: "https://mrmaximeliom.github.io/React-Countdown",
+    github_url: "https://github.com/MrMaximeliom/React-Countdown",
+    category: ["React"],
+    key_techs: ["React", "Redux"],
+  },
+  {
+    id: 3,
+    name: "project three",
+    description: "dsds",
+    image_path: "/imgs/projects/covid.jpg",
+    deployed_url: "fgfg",
+    github_url: "dfd",
+    category: ["DotNet"],
+    key_techs: ["React", "Material UI"],
+  },
+  {
+    id: 4,
+    name: "project four",
+    description: "dsds",
+    image_path: "/imgs/projects/covid.jpg",
+    deployed_url: "fgfg",
+    github_url: "dfd",
+    category: ["DotNet", "Mongo", "React"],
+    key_techs: ["React", "Material UI"],
+  },
+  {
+    id: 5,
+    name: "project five",
+    description: "dsds",
+    image_path: "/imgs/projects/covid.jpg",
+    deployed_url: "fgfg",
+    github_url: "dfd",
+    category: ["React"],
+    key_techs: ["React", "Material UI"],
+  },
+];
