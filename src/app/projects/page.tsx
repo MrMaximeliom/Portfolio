@@ -4,7 +4,8 @@ import ProjectCard from "@/components/ProjectCard";
 import ProjectsNavbar from "@/components/ProjectsNavbar";
 import { projects as projectsData } from "@/data/projects";
 import { useState } from "react";
-import { motion } from "framer-motion";import { fadingUp } from "@/animations/fadings";
+import { motion } from "framer-motion";
+import { fadingUp } from "@/animations/fadings";
 import { stagger } from "@/animations/stagger";
 import { routerAnimation } from "@/animations/routerAnimation";
 

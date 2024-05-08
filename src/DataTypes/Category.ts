@@ -6,4 +6,5 @@ export type Category =
   | "Mongo"
   | "NodeJS"
   | "DotNet"
-  | "NextJS";
+  | "NextJS"
+  | "VanillaJS";
