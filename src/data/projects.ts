@@ -6,7 +6,7 @@ export const projects: IProject[] = [
     name: "Parallax Effect",
     description:
       "project reflects the nice parallax effect developed in NextJS",
-    image_path: "/imgs/projects/hero.jpg",
+    image_path: "/imgs/projects/Parallax-Effect.png",
     deployed_url: "https://parallax-9get39cng-moayed-s-projects.vercel.app/",
     github_url: "https://github.com/MrMaximeliom/Parallax-Landing-Page",
     category: ["NextJS"],
