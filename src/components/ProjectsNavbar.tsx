@@ -17,6 +17,7 @@ const ProjectsNavbar: FunctionComponent<{
       <ProjectsNavbarItem value="Express" {...props} />
       <ProjectsNavbarItem value="Django" {...props} />
       <ProjectsNavbarItem value="NextJS" {...props} />
+      <ProjectsNavbarItem value="VanillaJS" {...props} />
     </div>
   );
 };

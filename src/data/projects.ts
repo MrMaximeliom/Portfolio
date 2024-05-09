@@ -25,13 +25,14 @@ export const projects: IProject[] = [
   },
   {
     id: 3,
-    name: "project three",
-    description: "dsds",
-    image_path: "/imgs/projects/covid.jpg",
-    deployed_url: "fgfg",
-    github_url: "dfd",
-    category: ["DotNet"],
-    key_techs: ["React", "Material UI"],
+    name: "EuroWeather",
+    description:
+      "EuroWeather is a simple application uses OpenWeatherApi to provide the users with the tempreature for 6 days ahead of most cities in Europe",
+    image_path: "/imgs/projects/EuroWeather.png",
+    deployed_url: "https://euro-weather.vercel.app/",
+    github_url: "https://github.com/MrMaximeliom/EuroWeather",
+    category: ["VanillaJS"],
+    key_techs: ["HTML", "VanillaJS", "CSS", "Bootstrap"],
   },
   {
     id: 4,

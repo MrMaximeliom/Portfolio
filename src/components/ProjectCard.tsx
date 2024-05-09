@@ -3,7 +3,7 @@ import { IProject } from "@/interfaces/IProject";
 import { FunctionComponent, useState } from "react";
 import { AiFillGithub, AiFillProject } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { motion } from "framer-motion";
 import { stagger } from "@/animations/stagger";
 import { fadingUp } from "@/animations/fadings";
@@ -62,6 +62,7 @@ const ProjectCard: FunctionComponent<{
               <a
                 href={github_url}
                 className="flex items-center py-2 space-x-3 bg-gray-200 dark:bg-dark-200 px-4 text-lg "
+                target="_blank"
               >
                 <AiFillGithub />
                 <span>Github</span>

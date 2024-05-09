@@ -5,7 +5,7 @@ import { GoLocation } from 'react-icons/go'
 import { GiTie } from 'react-icons/gi'
 import { useTheme } from 'next-themes';
 import { ThemeSwitcher } from './ThemeSwitcher';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 const Sidebar = () =>{
 
     const {theme,setTheme} = useTheme()
