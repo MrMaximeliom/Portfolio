@@ -54,7 +54,6 @@ const ProjectCard: FunctionComponent<{
                 layout="responsive"
               />
             </motion.div>
-
             <motion.div
               className="flex justify-center my-4 space-x-3"
               variants={fadingUp}
